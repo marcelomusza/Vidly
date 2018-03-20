@@ -221,6 +221,22 @@
     <Compile Include="Migrations\201803142329229_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201803142329229_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803200047381_AddedMembershipTypeNAME.cs" />
+    <Compile Include="Migrations\201803200047381_AddedMembershipTypeNAME.Designer.cs">
+      <DependentUpon>201803200047381_AddedMembershipTypeNAME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803200049395_PreviousToUpdateTableData.cs" />
+    <Compile Include="Migrations\201803200049395_PreviousToUpdateTableData.Designer.cs">
+      <DependentUpon>201803200049395_PreviousToUpdateTableData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803200054176_AddedRequiredFieldMType.cs" />
+    <Compile Include="Migrations\201803200054176_AddedRequiredFieldMType.Designer.cs">
+      <DependentUpon>201803200054176_AddedRequiredFieldMType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803200055557_DataAgainToMType.cs" />
+    <Compile Include="Migrations\201803200055557_DataAgainToMType.Designer.cs">
+      <DependentUpon>201803200055557_DataAgainToMType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -329,6 +345,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803142329229_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201803142329229_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803200047381_AddedMembershipTypeNAME.resx">
+      <DependentUpon>201803200047381_AddedMembershipTypeNAME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803200049395_PreviousToUpdateTableData.resx">
+      <DependentUpon>201803200049395_PreviousToUpdateTableData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803200054176_AddedRequiredFieldMType.resx">
+      <DependentUpon>201803200054176_AddedRequiredFieldMType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803200055557_DataAgainToMType.resx">
+      <DependentUpon>201803200055557_DataAgainToMType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
