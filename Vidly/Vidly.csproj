@@ -245,15 +245,37 @@
     <Compile Include="Migrations\201803212355228_ChangedDateTime.Designer.cs">
       <DependentUpon>201803212355228_ChangedDateTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803220053508_Ex3ModelsAndNewTable.cs" />
+    <Compile Include="Migrations\201803220053508_Ex3ModelsAndNewTable.Designer.cs">
+      <DependentUpon>201803220053508_Ex3ModelsAndNewTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803220057093_FixWrongGenreID.cs" />
+    <Compile Include="Migrations\201803220057093_FixWrongGenreID.Designer.cs">
+      <DependentUpon>201803220057093_FixWrongGenreID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803220058243_GenresStaticData.cs" />
+    <Compile Include="Migrations\201803220058243_GenresStaticData.Designer.cs">
+      <DependentUpon>201803220058243_GenresStaticData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803220103582_InsertingMovies.cs" />
+    <Compile Include="Migrations\201803220103582_InsertingMovies.Designer.cs">
+      <DependentUpon>201803220103582_InsertingMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803230132078_MoreChangesToMoviesAndGenre.cs" />
+    <Compile Include="Migrations\201803230132078_MoreChangesToMoviesAndGenre.Designer.cs">
+      <DependentUpon>201803230132078_MoreChangesToMoviesAndGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -318,6 +340,8 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -371,6 +395,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803212355228_ChangedDateTime.resx">
       <DependentUpon>201803212355228_ChangedDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803220053508_Ex3ModelsAndNewTable.resx">
+      <DependentUpon>201803220053508_Ex3ModelsAndNewTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803220057093_FixWrongGenreID.resx">
+      <DependentUpon>201803220057093_FixWrongGenreID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803220058243_GenresStaticData.resx">
+      <DependentUpon>201803220058243_GenresStaticData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803220103582_InsertingMovies.resx">
+      <DependentUpon>201803220103582_InsertingMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803230132078_MoreChangesToMoviesAndGenre.resx">
+      <DependentUpon>201803230132078_MoreChangesToMoviesAndGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
